@@ -1,29 +1,60 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-    
+    <link rel="stylesheet" type = "text/css" href="src/bootstrap.css">
+    <script src="jquery-1.11.3.min.js"></script>
+    <script src = "webScript.js"></script>
+
+    <link rel="stylesheet" href="lightbox2-master/dist/css/lightbox.css">
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX" crossorigin="anonymous">
 
+
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
+    
+    
 
-    <!-- div.bordered {border: thick;} -->
+    
 </head>
-<style>
-    .bordered {border: 1px solid black;}
-</style>
 
-<body>
-    <div class="bordered">
-        <h1 style="text-align: center">Sam Slade</h1>
+<body background="images/r1c1.jpg" style=   "background-attachment: fixed; 
+                                            background-repeat: no-repeat; 
+                                            background-size: cover;"
+                                            >
+    
+    
+    
+    <div  style="text-align: center;">
+        <h1>Sam Slade</h1>
+        <div class="btn-group" role="group" aria-label="...">
+            <a class="btn btn-default active" role="button">Gallery</a>
+            <a class="btn btn-default" href="about.html" role="button">About</a>
+        </div>
     </div>
-    <div class="bordered">
-        <img src="test_landscape.jpg" style="height: 200px; width: 200px; padding: 10px;" class="img-circle">
+    <div style = "text-align:center">
+        <a class="popup-img" href="images/r1c1.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r1c1.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r1c2.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r1c2.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r1c3.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r1c3.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r1c4.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r1c4.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r2c1.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r2c1.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r2c2.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r2c2.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r2c3.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r2c3.jpg'); display:inline-block"></div></a>
+        <a class="popup-img" href="images/r2c4.jpg" data-lightbox="sam_images" >
+        <div class="div-circle" style="background-image: url('images/r2c4.jpg'); display:inline-block"></div></a>
     </div>
+
+    <script src="lightbox2-master/dist/js/lightbox.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js" integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ==" crossorigin="anonymous"></script>
     
 </body>
 </html>
